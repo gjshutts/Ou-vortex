@@ -1,0 +1,29 @@
+[
+  {
+    "b0": 2.0,
+    "reference_launch": 1e-05,
+    "refined_launch": 2.5e-06,
+    "delta_tip_height": 6.940681496203638e-08,
+    "delta_tip_radius": -8.692182706937501e-08,
+    "delta_lid_radius": -2.1658031057469884e-07,
+    "refined_shooting_residual": -8.966161146872764e-12
+  },
+  {
+    "b0": 4.0,
+    "reference_launch": 1e-05,
+    "refined_launch": 2.5e-06,
+    "delta_tip_height": 6.238697114469005e-08,
+    "delta_tip_radius": -8.482963997913373e-08,
+    "delta_lid_radius": -2.2181925363184973e-07,
+    "refined_shooting_residual": 1.708624353113919e-10
+  },
+  {
+    "b0": 7.0,
+    "reference_launch": 1e-05,
+    "refined_launch": 2.5e-06,
+    "delta_tip_height": 6.26407564707776e-08,
+    "delta_tip_radius": -8.712296195589886e-08,
+    "delta_lid_radius": -2.150446762883007e-07,
+    "refined_shooting_residual": 1.3515109031914108e-09
+  }
+]

@@ -1,0 +1,21 @@
+\begin{table*}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{r r r r r r r r}
+\hline
+$N_e$ & $r_{\rm tip}$ & $z_{\rm tip}$ & $r_{\rm a}$ & $\Delta r_{\rm tip}$ & $\Delta z_{\rm tip}$ & $\Delta r_{\rm a}$ & $\max_i|\delta m_i|$ \\
+\hline
+20 & 2.0315243 & 0.8145677 & 2.4284470 & $+2.87\times10^{-2}$ & $+1.49\times10^{-2}$ & $-5.28\times10^{-3}$ & $9.73\times10^{-7}$ \\
+40 & 2.0087625 & 0.8034958 & 2.4332676 & $+5.95\times10^{-3}$ & $+3.88\times10^{-3}$ & $-4.56\times10^{-4}$ & $8.69\times10^{-7}$ \\
+80 & 2.0046423 & 0.8006997 & 2.4334824 & $+1.83\times10^{-3}$ & $+1.08\times10^{-3}$ & $-2.41\times10^{-4}$ & $7.79\times10^{-7}$ \\
+160 & 2.0031728 & 0.7998406 & 2.4336373 & $+3.60\times10^{-4}$ & $+2.21\times10^{-4}$ & $-8.60\times10^{-5}$ & $9.62\times10^{-7}$ \\
+320$^{\ast}$ & 2.0029676 & 0.7997157 & 2.4337174 & $+1.55\times10^{-4}$ & $+9.59\times10^{-5}$ & $-5.90\times10^{-6}$ & $1.06\times10^{-6}$ \\
+400$^{\ast}$ & 2.0028757 & 0.7996580 & 2.4337062 & $+6.31\times10^{-5}$ & $+3.81\times10^{-5}$ & $-1.71\times10^{-5}$ & $1.71\times10^{-6}$ \\
+\hline
+ODE & 2.0028127 & 0.7996199 & 2.4337233 & --- & --- & --- & --- \\
+\hline
+\end{tabular}
+\caption{Front locations for dry geometric-model equilibria with $r_0=0.003$, $r_{\max}=4.2$, $b_0=2$ and $\alpha=1$. Initial elements are uniformly spaced in radius. The tip and upper-lid attachment ($r_{\rm a}$) are obtained from the polygon contact chain. Differences are geometric minus ODE. The absolute element-mass tolerance is $10^{-6}$. Rows marked $\ast$ report final iterates that did not meet this tolerance.}
+\label{tab:geometric-front-convergence}
+\end{table*}

@@ -1,0 +1,162 @@
+{
+  "parameters": {
+    "r0": 0.003,
+    "rmax": 4.2,
+    "b0": 2.0,
+    "alpha": 1.0,
+    "density": 1.0,
+    "mass_tolerance": 1e-06
+  },
+  "difference_convention": "geometric minus ODE",
+  "ode_reference": {
+    "tip_r": 2.0028126674489837,
+    "tip_z": 0.7996198620152426,
+    "attachment_r": 2.4337233078581373
+  },
+  "rows": [
+    {
+      "n": 20,
+      "tip_r": 2.031524272231183,
+      "tip_z": 0.8145677201519436,
+      "attachment_r": 2.428447030975221,
+      "differences": {
+        "tip_r": 0.028711604782199363,
+        "tip_z": 0.014947858136700964,
+        "attachment_r": -0.005276276882916431
+      },
+      "max_mass_error": 9.72722055792019e-07,
+      "max_relative_mass_error": 5.901376383954067e-07,
+      "converged": true,
+      "status": "converged",
+      "iterations": 47,
+      "front_segments": 6,
+      "front_chain": {
+        "nodes": 7,
+        "segments": 6,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n20_r0_0.003_rmax_4.2.json"
+    },
+    {
+      "n": 40,
+      "tip_r": 2.008762486280025,
+      "tip_z": 0.8034958153054396,
+      "attachment_r": 2.433267610082928,
+      "differences": {
+        "tip_r": 0.005949818831041398,
+        "tip_z": 0.003875953290196965,
+        "attachment_r": -0.0004556977752092628
+      },
+      "max_mass_error": 8.689816703988384e-07,
+      "max_relative_mass_error": 1.5408513937879428e-06,
+      "converged": true,
+      "status": "converged",
+      "iterations": 45,
+      "front_segments": 13,
+      "front_chain": {
+        "nodes": 14,
+        "segments": 13,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n40_r0_0.003_rmax_4.2.json"
+    },
+    {
+      "n": 80,
+      "tip_r": 2.0046423047625277,
+      "tip_z": 0.8006997490000439,
+      "attachment_r": 2.433482444664069,
+      "differences": {
+        "tip_r": 0.0018296373135440192,
+        "tip_z": 0.001079886984801326,
+        "attachment_r": -0.00024086319406846357
+      },
+      "max_mass_error": 7.788504536865304e-07,
+      "max_relative_mass_error": 8.959658970634197e-06,
+      "converged": true,
+      "status": "converged",
+      "iterations": 43,
+      "front_segments": 27,
+      "front_chain": {
+        "nodes": 28,
+        "segments": 27,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n80_r0_0.003_rmax_4.2.json"
+    },
+    {
+      "n": 160,
+      "tip_r": 2.003172829076593,
+      "tip_z": 0.7998406152466166,
+      "attachment_r": 2.433637344050326,
+      "differences": {
+        "tip_r": 0.00036016162760921233,
+        "tip_z": 0.000220753231374049,
+        "attachment_r": -8.596380781122903e-05
+      },
+      "max_mass_error": 9.623161777438938e-07,
+      "max_relative_mass_error": 4.390689955522709e-06,
+      "converged": true,
+      "status": "converged",
+      "iterations": 39,
+      "front_segments": 55,
+      "front_chain": {
+        "nodes": 56,
+        "segments": 55,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n160_r0_0.003_rmax_4.2.json"
+    },
+    {
+      "n": 320,
+      "tip_r": 2.002967640690139,
+      "tip_z": 0.7997157324453272,
+      "attachment_r": 2.4337174049599968,
+      "differences": {
+        "tip_r": 0.00015497324115543165,
+        "tip_z": 9.587043008463247e-05,
+        "attachment_r": -5.9028981405084835e-06
+      },
+      "max_mass_error": 1.0550247618867914e-06,
+      "max_relative_mass_error": 7.397393235111201e-06,
+      "converged": false,
+      "status": "no_improving_step",
+      "iterations": 39,
+      "front_segments": 111,
+      "front_chain": {
+        "nodes": 112,
+        "segments": 111,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n320_r0_0.003_rmax_4.2.json"
+    },
+    {
+      "n": 400,
+      "tip_r": 2.002875733550369,
+      "tip_z": 0.7996579714381616,
+      "attachment_r": 2.433706226932371,
+      "differences": {
+        "tip_r": 6.306610138517854e-05,
+        "tip_z": 3.8109422919041513e-05,
+        "attachment_r": -1.7080925766244093e-05
+      },
+      "max_mass_error": 1.7100418911453197e-06,
+      "max_relative_mass_error": 1.8062187338386907e-05,
+      "converged": false,
+      "status": "no_improving_step",
+      "iterations": 34,
+      "front_segments": 139,
+      "front_chain": {
+        "nodes": 140,
+        "segments": 139,
+        "endpoints": 2,
+        "connected": true
+      },
+      "source": "dry_b2_n400_r0_0.003_rmax_4.2.json"
+    }
+  ]
+}

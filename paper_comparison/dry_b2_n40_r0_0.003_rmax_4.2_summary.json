@@ -1,0 +1,81 @@
+{
+  "converged": true,
+  "status": "converged",
+  "iterations": 45,
+  "max_mass_error": 8.689816703988384e-07,
+  "max_relative_mass_error": 1.5408513937879428e-06,
+  "empty_cells": [],
+  "parameters": {
+    "n": 40,
+    "r_inner": 0.003,
+    "r_outer": 4.2,
+    "bm0": 2.0,
+    "alpha": 1.0,
+    "coefficients": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "H0": "Infinity",
+    "rho_s": 1.0
+  },
+  "elapsed_seconds": 0.9049804169917479,
+  "total_mass_error": 7.635705401298765e-09,
+  "geometric_front": {
+    "segments": 13,
+    "tip_r": 2.008762486280025,
+    "tip_z": 0.8034958153054396,
+    "upper_r": 2.433267610082928,
+    "upper_z": 1.0,
+    "minimum_label_gap": 2,
+    "maximum_label_gap": 14
+  },
+  "front_chain": {
+    "nodes": 14,
+    "segments": 13,
+    "endpoints": 2,
+    "connected": true
+  },
+  "ode_front": {
+    "tip_r": 2.0028126674489837,
+    "tip_z": 0.7996198620152426,
+    "upper_r": 2.4337233078581373
+  },
+  "geometric_minus_ode": {
+    "tip_r": 0.005949818831041398,
+    "tip_z": 0.003875953290196965,
+    "upper_r": -0.0004556977752092628
+  },
+  "front_samples": [
+    {
+      "z": 0.81,
+      "geometric_r": 2.019840636883424,
+      "ode_r": 2.0191574459439865,
+      "difference": 0.0006831909394375835
+    },
+    {
+      "z": 0.85,
+      "geometric_r": 2.087715643804221,
+      "ode_r": 2.0880070296662816,
+      "difference": -0.000291385862060789
+    },
+    {
+      "z": 0.9,
+      "geometric_r": 2.187350312298405,
+      "ode_r": 2.1879171524001446,
+      "difference": -0.0005668401017397962
+    },
+    {
+      "z": 0.95,
+      "geometric_r": 2.3034419633154126,
+      "ode_r": 2.303619590458015,
+      "difference": -0.00017762714260216583
+    },
+    {
+      "z": 1.0,
+      "geometric_r": 2.433267610082928,
+      "ode_r": 2.4337233078581373,
+      "difference": -0.0004556977752092628
+    }
+  ]
+}
